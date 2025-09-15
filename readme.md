@@ -24,3 +24,5 @@ Hatalar, eksik özellikler veya performans sorunları olabilir. Geliştirme sür
 
 ```Download and Work
 Git linkini klonlayıp çalıştrın
+
+VirusTotal: https://www.virustotal.com/gui/file/aa328acf89727e9e007e66bb63453ac46a85f8fad0c14d6cfb526c693f416ebb?nocache=1
