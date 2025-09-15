@@ -22,6 +22,5 @@ Hatalar, eksik özellikler veya performans sorunları olabilir. Geliştirme sür
 
 ## 📦 Kurulum
 
-```bash
-git clone https://github.com/kullaniciadi/twibby-engine.git
-cd twibby-engine
+```Download and Work
+Git linkini klonlayıp çalıştrın
