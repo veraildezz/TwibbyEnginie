@@ -1,0 +1,246 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<ScrollView
+		android:id="@+id/vscroll1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:padding="8dp">
+		<LinearLayout
+			android:id="@+id/linear5"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical">
+			<LinearLayout
+				android:id="@+id/linear2"
+				android:layout_width="match_parent"
+				android:layout_height="400dp"
+				android:padding="8dp"
+				android:background="@drawable/toprak"
+				android:gravity="center_horizontal|center_vertical"
+				android:orientation="horizontal">
+				<ImageView
+					android:id="@+id/karakter"
+					android:layout_width="50dp"
+					android:layout_height="50dp"
+					android:src="@drawable/default_image"
+					android:scaleType="fitCenter" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear4"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:orientation="horizontal">
+				<ImageView
+					android:id="@+id/sol"
+					android:layout_width="45dp"
+					android:layout_height="45dp"
+					android:src="@drawable/sol"
+					android:scaleType="fitCenter" />
+				<ImageView
+					android:id="@+id/yukari"
+					android:layout_width="45dp"
+					android:layout_height="45dp"
+					android:src="@drawable/asagi"
+					android:scaleType="fitCenter" />
+				<ImageView
+					android:id="@+id/asagi"
+					android:layout_width="45dp"
+					android:layout_height="45dp"
+					android:src="@drawable/yukari"
+					android:scaleType="fitCenter" />
+				<ImageView
+					android:id="@+id/sag"
+					android:layout_width="45dp"
+					android:layout_height="45dp"
+					android:src="@drawable/sag"
+					android:scaleType="fitCenter" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear16"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:gravity="right|center_vertical"
+				android:orientation="horizontal">
+				<ImageView
+					android:id="@+id/imageview1"
+					android:layout_width="30dp"
+					android:layout_height="30dp"
+					android:src="@drawable/kod_yonlendirme"
+					android:scaleType="fitCenter" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear6"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:gravity="center_horizontal|center_vertical"
+				android:orientation="horizontal">
+				<TextView
+					android:id="@+id/textview1"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Hareket yönleri"
+					android:textSize="14sp"
+					android:textStyle="bold" />
+				<LinearLayout
+					android:id="@+id/linear13"
+					android:layout_width="wrap_content"
+					android:layout_height="match_parent"
+					android:padding="8dp"
+					android:orientation="vertical" />
+				<ImageView
+					android:id="@+id/kaydet"
+					android:layout_width="30dp"
+					android:layout_height="30dp"
+					android:src="@drawable/kaydet"
+					android:scaleType="fitCenter" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear7"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal">
+				<LinearLayout
+					android:id="@+id/linear8"
+					android:layout_width="wrap_content"
+					android:layout_height="match_parent"
+					android:padding="8dp"
+					android:orientation="vertical"
+					android:layout_weight="1">
+					<EditText
+						android:id="@+id/editsol"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:textSize="12sp"
+						android:hint="Sol" />
+					<ImageView
+						android:id="@+id/sagyurume"
+						android:layout_width="45dp"
+						android:layout_height="45dp"
+						android:src="@drawable/koleksiyon1"
+						android:scaleType="fitCenter" />
+				</LinearLayout>
+				<LinearLayout
+					android:id="@+id/linear9"
+					android:layout_width="wrap_content"
+					android:layout_height="match_parent"
+					android:padding="8dp"
+					android:orientation="vertical"
+					android:layout_weight="1">
+					<EditText
+						android:id="@+id/editsag"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:textSize="12sp"
+						android:hint="Sag" />
+					<ImageView
+						android:id="@+id/solyurume"
+						android:layout_width="45dp"
+						android:layout_height="45dp"
+						android:src="@drawable/koleksiyon2"
+						android:scaleType="fitCenter" />
+				</LinearLayout>
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear10"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal">
+				<LinearLayout
+					android:id="@+id/linear11"
+					android:layout_width="wrap_content"
+					android:layout_height="match_parent"
+					android:padding="8dp"
+					android:orientation="vertical"
+					android:layout_weight="1">
+					<EditText
+						android:id="@+id/edityukari"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:textSize="12sp"
+						android:hint="Yukarı" />
+					<ImageView
+						android:id="@+id/yukariyurume"
+						android:layout_width="45dp"
+						android:layout_height="45dp"
+						android:src="@drawable/koleksiyon3"
+						android:scaleType="fitCenter" />
+				</LinearLayout>
+				<LinearLayout
+					android:id="@+id/linear12"
+					android:layout_width="wrap_content"
+					android:layout_height="match_parent"
+					android:padding="8dp"
+					android:orientation="vertical"
+					android:layout_weight="1">
+					<EditText
+						android:id="@+id/editasagi"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:textSize="12sp"
+						android:hint="Aşağı" />
+					<ImageView
+						android:id="@+id/asagiyurume"
+						android:layout_width="45dp"
+						android:layout_height="45dp"
+						android:src="@drawable/koleksiyon4"
+						android:scaleType="fitCenter" />
+				</LinearLayout>
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear14"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="5dp"
+				android:orientation="horizontal">
+				<EditText
+					android:id="@+id/edittext1"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:textSize="12sp"
+					android:hint="Karakteri Döndür" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear15"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:orientation="horizontal">
+				<EditText
+					android:id="@+id/edittext2"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:textSize="12sp"
+					android:hint="Scale X" />
+				<LinearLayout
+					android:id="@+id/linear17"
+					android:layout_width="wrap_content"
+					android:layout_height="match_parent"
+					android:padding="8dp"
+					android:orientation="vertical"
+					android:layout_weight="1" />
+				<EditText
+					android:id="@+id/edittext3"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:textSize="12sp"
+					android:hint="Scale Y" />
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>
